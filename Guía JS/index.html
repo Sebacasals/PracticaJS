@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía JS</title>
+</head>
+
+<body>
+    
+    <script>
+
+         /*
+        document.write('Mi nombre es Guada <br> Tengo 20<br>');
+        */
+
+        /*
+        let nombreEmpleado = 'Sebastian';
+        let edad = 1000000;
+        document.write(nombreEmpleado);
+        document.write('<br>');
+        document.write(edad);
+        document.write('<br>');
+        */
+
+        /*
+        let nombreUsuario;
+        let email;
+        nombreUsuario = prompt ('Ingresa tu nombre');
+        email = prompt ('Ingresa tu email');
+        document.write ('Hola ' + nombreUsuario + ' tu email es: ' + email +'<br>');
+        */
+
+       /*
+        let valor1;
+        let valor2 = 4;
+        valor1 = prompt('Ingresa un numero')
+        let perimetro = parseInt(valor1) * parseInt(valor2);
+        document.write('El perimetro de un cuadrado de lados con valor '+ valor1 + ' es: ' + perimetro);
+        */
+
+        /*
+        let valor1, valor2, valor3, valor4;
+        valor1 = prompt ('Ingresa el primer numero');
+        valor2 = prompt ('Ingresa el segundo numero');
+        valor3 = prompt ('Ingresa el tercer numero');
+        valor4 = prompt ('Ingresa el cuarto numero');
+        let suma = parseInt(valor1) + parseInt(valor2);
+        let producto = parseInt(valor3) * parseInt(valor4);
+        document.write('La suma del primer y segundo numero es de: ' + suma + '<br>');
+        document.write('El producto del tercer y cuarto numero es de: ' + producto);
+        */
+
+        /*
+        let valor1, valor2, valor3, valor4;
+        valor1 = prompt ('Ingresa el primer numero');
+        valor2 = prompt ('Ingresa el segundo numero');
+        valor3 = prompt ('Ingresa el tercer numero');
+        valor4 = prompt ('Ingresa el cuarto numero');
+        let suma = parseInt(valor1) + parseInt(valor2) + parseInt(valor3) + parseInt(valor4);
+        let producto = parseInt(valor1) * parseInt(valor2) * parseInt(valor3) * parseInt(valor4);
+        document.write('La suma de los numeros es de: ' + suma + '<br>');
+        document.write('El producto de los numeros es de: ' + producto);
+        */
+
+        /*let precio;
+        let cantidad;
+        precio = prompt('Ingrese el precio del articulo')
+        cantidad = prompt('Ingrese la cantidad a llevar')
+        precioFinal = parseInt(precio) * parseInt(cantidad);
+        document.write("El precio final a abonar es: " + precioFinal)
+
+        let lado;
+        let perimetro;
+
+        document.write('Cálculo del perimetro' + '<br>' );
+        lado = prompt('Ingresa el valor del lado del cuadrado: ');
+        perimetro = parseInt(lado) * 4;
+        document.write('El valor del perimetro es: ' + perimetro);*/
+
+        /* Estructuras condicionales simples */
+        /* Ejercicio 1 
+        let nota1, nota2, nota3;
+        let promedio;
+
+        nota1= parseInt(prompt('Ingrese nota1: '));
+        nota2= parseInt(prompt('Ingrese nota2 '));
+        nota3= parseInt(prompt('Ingrese nota3: '));
+
+        promedio = (nota1 + nota2 + nota3)/3;
+        if (promedio >= 7) {document.write('Promocionado');}*/
+
+        /* Ejercicio 2 
+        let clave1;
+        let clave2;
+
+        clave1 = prompt('Ingrese clave 1: ');
+        clave2 = prompt('Ingrese clave 2: ');
+
+        if (clave1 == clave2) { document.write('La clave es igual.'); }*/
+
+        /*Estructuras condicionales compuestas */
+        /*Ejercicio 2
+        let nota1, nota2, nota3;
+        let promedio;
+
+        nota1= parseInt(prompt('Ingrese nota1: '));
+        nota2= parseInt(prompt('Ingrese nota2 '));
+        nota3= parseInt(prompt('Ingrese nota3: '));
+
+        promedio = (nota1 + nota2 + nota3)/3;
+        if (promedio >= 4) {document.write('regular');}
+        else {document.write('reprobado');}*/
+
+        /*Estructuras condicionales anidadas*/
+        /*Ejercicio 2
+        let num;
+
+        num = parseInt(prompt('Ingrese el numero a evaluar: '));
+
+        if (num > 0) {document.write('El número es positivo');}
+        else if (num < 0) {document.write('El número es negativo');}
+        else { document.write('El número es 0');}*/
+
+        /*Estructura switch - Ej 1
+        let palabra;
+        palabra = prompt('Ingrese la palabra: ');
+
+        switch (palabra) {
+            case 'casa': 
+                document.write('house');
+                break;
+            case 'mesa':
+                document.write('table');
+                break;
+            case 'perro':
+               document.write('dog');
+               break;
+            case 'gato':
+                document.write('cat');
+                break;
+            default:
+                document.write('no ingreso un valor correcto');
+                break;
+        }*/
+
+        /*Estructura while*/
+        let valor = 11;
+        let contador = 0;
+
+        while (contador < 25) {
+            document.write('valor: ' + contador + ' es: ' + valor + '<br>');
+            contador++;
+            valor = valor + 11;
+        }
+        
+    </script>
+
+</body>
+
+</html>
